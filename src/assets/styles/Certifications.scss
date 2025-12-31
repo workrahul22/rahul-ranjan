@@ -1,0 +1,47 @@
+#certifications {
+  .items-container {
+    h1 {
+      margin-bottom: 12px;
+    }
+
+    .cert-list {
+      list-style: disc;
+      padding-left: 20px;
+
+      li {
+        margin-bottom: 8px;
+
+        a {
+          text-decoration: none;
+          color: #000; // default for light mode
+        }
+      }
+    }
+  }
+}
+
+/* Dark mode overrides - assumes parent adds .dark-mode on body or main container */
+.dark-mode #certifications {
+  .items-container {
+    .cert-list {
+      li {
+        a {
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+
+/* Light mode explicit rule */
+.light-mode #certifications {
+  .items-container {
+    .cert-list {
+      li {
+        a {
+          color: #000;
+        }
+      }
+    }
+  }
+}
