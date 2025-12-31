@@ -17,7 +17,9 @@ const labelsFirst = [
     "SQL",
     "MySQL",
     "MongoDb",
-    "Postman"
+    "Postman",
+    "kafka",
+    "Redis"
 ];
 
 const labelsSecond = [
@@ -32,11 +34,10 @@ const labelsSecond = [
 const labelsThird = [
     "OpenAI",
     "Groq",
+    "Gemini",
     "LangChain",
     "Qdrant",
-    "Hugging Face",
-    "LlamaIndex",
-    "Streamlit",
+    "n8n"
 ];
 
 function Expertise() {
@@ -69,7 +70,7 @@ function Expertise() {
                     </div>
                 </div>
 
-                {/* <div className="skill">
+                <div className="skill">
                     <FontAwesomeIcon icon={faPython} size="3x"/>
                     <h3>GenAI & LLM</h3>
                     <p>Stay relevant in the market by leveraging the latest AI models in your projects. I have professional experience building enterprise grade GenAI-enabled solutions to empower intelligent decision making.</p>
@@ -79,7 +80,7 @@ function Expertise() {
                             <Chip key={index} className='chip' label={label} />
                         ))}
                     </div>
-                </div> */}
+                </div>
             </div>
         </div>
     </div>

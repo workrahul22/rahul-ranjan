@@ -60,50 +60,14 @@ function Contact() {
             autoComplete="off"
             className='contact-form'
           >
-            <div className='form-flex'>
-              <TextField
-                required
-                id="outlined-required"
-                label="Your Name"
-                placeholder="What's your name?"
-                value={name}
-                onChange={(e) => {
-                  setName(e.target.value);
-                }}
-                error={nameError}
-                helperText={nameError ? "Please enter your name" : ""}
-              />
-              <TextField
-                required
-                id="outlined-required"
-                label="Email / Phone"
-                placeholder="How can I reach you?"
-                value={email}
-                onChange={(e) => {
-                  setEmail(e.target.value);
-                }}
-                error={emailError}
-                helperText={emailError ? "Please enter your email or phone number" : ""}
-              />
+            <div className="calendly-inline" style={{ marginTop: 20 }}>
+              <iframe
+                src="https://calendly.com/work-rahul22/30min?embed_domain=localhost&embed_type=Inline"
+                width="100%"
+                height={700}
+                frameBorder="0"
+              ></iframe>
             </div>
-            <TextField
-              required
-              id="outlined-multiline-static"
-              label="Message"
-              placeholder="Send me any inquiries or questions"
-              multiline
-              rows={10}
-              className="body-form"
-              value={message}
-              onChange={(e) => {
-                setMessage(e.target.value);
-              }}
-              error={messageError}
-              helperText={messageError ? "Please enter the message" : ""}
-            />
-            <Button variant="contained" endIcon={<SendIcon />} onClick={sendEmail}>
-              Send
-            </Button>
           </Box>
         </div>
       </div>

@@ -1,6 +1,7 @@
 import React from "react";
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import Email from '@mui/icons-material/Email';
 import '../assets/styles/Main.scss';
 
 function Main() {
@@ -15,6 +16,7 @@ function Main() {
           <div className="social_icons">
             <a href="https://github.com/workrahul22" target="_blank" rel="noreferrer"><GitHubIcon/></a>
             <a href="https://www.linkedin.com/in/workrahul22/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
+            <a href="mailto:work.rahul22@gmail.com" target="_blank"><Email /></a>
           </div>
           <h1>Rahul Ranjan</h1>
           <p>Full Stack Engineer</p>

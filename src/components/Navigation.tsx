@@ -20,7 +20,8 @@ const drawerWidth = 240;
 const navItems = [
   ['Expertise', 'expertise'], 
   ['History', 'history'], 
-  // ['Projects', 'projects'], 
+  // ['Projects', 'projects'],
+  // ['Download Resume', 'DownloadResume'],
   ['Contact', 'contact']
 ];
 
