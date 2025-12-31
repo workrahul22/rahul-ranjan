@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/rahul-ranjan/static/css/main.c75edb68.css",
-    "main.js": "/rahul-ranjan/static/js/main.3f56dd27.js",
+    "main.css": "/rahul-ranjan/static/css/main.cd105247.css",
+    "main.js": "/rahul-ranjan/static/js/main.1a3e87c2.js",
     "static/js/453.b05d8aa5.chunk.js": "/rahul-ranjan/static/js/453.b05d8aa5.chunk.js",
     "static/media/mock10.png": "/rahul-ranjan/static/media/mock10.2d05b02ba569a430a255.png",
     "static/media/bg-light.png": "/rahul-ranjan/static/media/bg-light.bac0efb485244a522981.png",
     "static/media/bg-dark.png": "/rahul-ranjan/static/media/bg-dark.f420c6b8458af72de935.png",
     "index.html": "/rahul-ranjan/index.html",
-    "main.c75edb68.css.map": "/rahul-ranjan/static/css/main.c75edb68.css.map",
-    "main.3f56dd27.js.map": "/rahul-ranjan/static/js/main.3f56dd27.js.map",
+    "main.cd105247.css.map": "/rahul-ranjan/static/css/main.cd105247.css.map",
+    "main.1a3e87c2.js.map": "/rahul-ranjan/static/js/main.1a3e87c2.js.map",
     "453.b05d8aa5.chunk.js.map": "/rahul-ranjan/static/js/453.b05d8aa5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c75edb68.css",
-    "static/js/main.3f56dd27.js"
+    "static/css/main.cd105247.css",
+    "static/js/main.1a3e87c2.js"
   ]
 }
